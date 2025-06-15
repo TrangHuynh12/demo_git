@@ -33,6 +33,8 @@ public class BaiTap {
             sumSoChan +=i;
         }
         System.out.println("Tổng chẵn từ 0 đến " + n + " là: " + sumSoChan);
+
         //chia hết cho 3 for(int i=3; i<=n; i+=3){}
+        //git
     }
 }
