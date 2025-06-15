@@ -28,13 +28,13 @@ public class BaiTap {
 //     2. Viết chương trình cho phép người dùng nhập vào số n. tính tổng số chẵn từ 0-n
         System.out.println("Nhập vào số n để tính tổng số chẵn từ 0-n");
         int n = scanner.nextInt();
-        int sumSoChan = 0;
+        int sumsochan = 0;
         for(int i =0; i<=n; i+=2){
-            sumSoChan +=i;
+            sumsochan +=i;
         }
-        System.out.println("Tổng chẵn từ 0 đến " + n + " là: " + sumSoChan);
+        System.out.println("Tổng chẵn từ 0 đến n là: " + sumsochan);
 
         //chia hết cho 3 for(int i=3; i<=n; i+=3){}
-        //git
+        System.out.println("Get start github");
     }
 }
